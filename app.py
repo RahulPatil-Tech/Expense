@@ -58,7 +58,3 @@ if st.session_state.expense_data:
         file_name="expenses.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
-
-
-tput = io.BytesIO()
-  
