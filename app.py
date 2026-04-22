@@ -18,7 +18,7 @@ else:
 # 2. Input Form
 with st.form("expense_form", clear_on_submit=True):
     date = st.date_input("Date")
-    categories = ['Food', 'Transport', 'Auto', 'Rapido', 'Bills', 'Other']
+    categories = ['Food', 'Transport', 'Auto', 'Rapido', 'Bills', 'Railway', 'Other]
     category = st.selectbox("Category", categories)
     amount = st.number_input("Amount (₹)", min_value=0.0, step=0.01)
     submitted = st.form_submit_button("Add to List")
